@@ -10,7 +10,7 @@ app.use(express.json());
 -app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://task-app-mern.onrender.com'],
+    origin: ['http://localhost:3000', 'https://task-app-mern-1wzf.onrender.com'],
   })
 );
 
